@@ -1,0 +1,10 @@
+.slider-img {
+  height: 400px;       /* carousel height fix */
+  object-fit: cover;   /* image crop होकर fit रहेगी */
+}
+
+@media (max-width: 768px) {
+  .slider-img {
+    height: 150px;
+  }
+}
